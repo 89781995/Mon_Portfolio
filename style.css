@@ -1,0 +1,49 @@
+#title{
+    height: 100vh;
+}
+.gradient-background {
+    background: linear-gradient(300deg, #0056A6, #00A69D, #009C68);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  h1{
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  p{
+    font-family: 'Indie Flower', cursive ;
+    color: aliceblue;
+    font-size: 22px;
+  }
+
+  svg{
+    color: white;
+    height: 25px;
+    width: 25px;
+  }
+
+  svg:hover{
+    color: rgb(7, 94, 94);
+  }
