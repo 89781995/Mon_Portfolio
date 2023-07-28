@@ -48,3 +48,15 @@
   svg:hover{
     color: #000;
   }
+
+  @media (max-width:539px){
+    .paragraphe{
+      width: 300px;
+    }
+  }
+  @media (min-width:539px){
+    .paragraphe{
+      min-width: 400px;
+      max-width: 600px;
+    }
+  }
